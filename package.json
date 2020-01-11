@@ -1,0 +1,18 @@
+{
+  "name": "hopa",
+  "version": "0.1.0",
+  "description": "Run JavaScript/TypeScript files on the fly",
+  "main": "lib/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krasimir/hopa.git"
+  },
+  "author": "Krasimir Tsonev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krasimir/hopa/issues"
+  },
+  "homepage": "https://github.com/krasimir/hopa"
+}
