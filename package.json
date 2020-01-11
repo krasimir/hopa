@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "Run JavaScript/TypeScript files on the fly",
   "main": "lib/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krasimir/hopa.git"
@@ -14,5 +13,11 @@
   "bugs": {
     "url": "https://github.com/krasimir/hopa/issues"
   },
-  "homepage": "https://github.com/krasimir/hopa"
+  "homepage": "https://github.com/krasimir/hopa",
+  "bin": {
+    "hopa": "./lib/index.js"
+  },
+  "dependencies": {
+    "terminal-kit": "1.32.3"
+  }
 }
