@@ -10,5 +10,5 @@ const t = test();
 console.log(t.next());
 
 setInterval(() => {
-  // console.log('fa');dsadas
+  // console.log('fa'); 
 }, 1000);
