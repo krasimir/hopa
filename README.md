@@ -4,7 +4,7 @@
 
 ## Features
 
-* 0 configuration 🚀
+* Zero configuration 🚀
 * Transpiles JavaScript and TypeScript ⚙️
 * Single-folder file browser 📁
 
