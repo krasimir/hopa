@@ -1,6 +1,6 @@
 {
   "name": "hopa",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Run JavaScript/TypeScript files on the fly",
   "main": "lib/index.js",
   "scripts": {},
@@ -17,11 +17,13 @@
   "bin": {
     "hopa": "./lib/index.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@babel/core": "7.8.0",
     "@babel/plugin-transform-parameters": "7.7.7",
     "@babel/preset-env": "7.7.7",
-    "@babel/runtime": "7.8.0",
+    "@babel/runtime": "7.8.0"
+  },
+  "dependencies": {
     "@rollup/plugin-commonjs": "11.0.1",
     "core-js": "3.6.3",
     "execa": "4.0.0",
