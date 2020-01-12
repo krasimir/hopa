@@ -1,6 +1,6 @@
 {
   "name": "hopa",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Run JavaScript/TypeScript files on the fly",
   "main": "lib/index.js",
   "scripts": {},
@@ -18,10 +18,18 @@
     "hopa": "./lib/index.js"
   },
   "dependencies": {
-    "@rollup/plugin-run": "1.2.0",
+    "@babel/core": "7.8.0",
+    "@babel/plugin-transform-parameters": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "@babel/runtime": "7.8.0",
+    "@rollup/plugin-commonjs": "11.0.1",
+    "add": "2.0.6",
+    "core-js": "3.6.3",
     "execa": "4.0.0",
-    "parcel-bundler": "1.12.4",
+    "regenerator-runtime": "0.13.3",
     "rollup": "1.29.0",
-    "terminal-kit": "1.32.3"
+    "rollup-plugin-babel": "4.3.3",
+    "terminal-kit": "1.32.3",
+    "yarn": "1.21.1"
   }
 }
