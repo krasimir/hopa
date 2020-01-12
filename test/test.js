@@ -3,7 +3,7 @@ const a = require('./test2.js');
 console.log(a());
 
 function * test() {
-  yield 'fooa';
+  yield 'foo';
 }
 
 const t = test();
