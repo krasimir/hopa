@@ -13,3 +13,7 @@ Go to the folder that contains your files and run `hopa`.
 ```
 > hopa
 ```
+
+## Demo
+
+![Hopa demo](./assets/hopa.gif)
