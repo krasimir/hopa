@@ -12,10 +12,10 @@
 
 **Hopa** is a command line tool that does the following:
 
-* Reads the current directory and lets you choose a file.
-* Transpiles the file and produces a valid JavaScript bundle.
-* Runs the generated bundle via node and shows you the result.
-* It also runs a watcher so changing the files will trigger a new compilation.
+1. Reads the current directory and lets you choose a file.
+2. Transpiles the file and produces a valid JavaScript bundle. It uses [Rollup](https://rollupjs.org/) so it does resolve your imports.
+3. Runs the generated bundle via node and shows you the result.
+4. It also runs a watcher so changing the files will trigger new compilation.
 
 I did this little tool because I'm tired of creating dummy repos, copying webpack files, switching between terminal and browser just so I can run some "modern" JavaScript. I know about solution like [CodeSandbox](https://codesandbox.io/) and [CodePen](https://codepen.io/) but I want specifically to exercise my code in the terminal. And I want to do it quick, without configuring stuff like Babel and Webpack.
 
