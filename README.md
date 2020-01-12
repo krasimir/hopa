@@ -1,6 +1,8 @@
+![Хопа-тропа](./assets/hopa-tropa.jpg)
+
 ## Installation
 
-Hopa is meant to be as a globally installed npm module so:
+Hopa is a command line tool so probably you want to install it globally. Run the following:
 
 ```
 npm i hopa -g
