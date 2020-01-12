@@ -2,8 +2,6 @@
 
 <h1 align="center">Zero config JavaScript/TypeScript runner<br />right in your terminal</h3>
 
----
-
 ## Features
 
 * 0 configuration 🚀
