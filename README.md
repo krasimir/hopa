@@ -8,7 +8,7 @@
 
 * 0 configuration 🚀
 * Transpiles JavaScript and TypeScript ⚙️
-* Little single-folder file browser 📁
+* Single-folder file browser 📁
 
 ## What and Why
 
