@@ -1,3 +1,3 @@
-module.exports = function () {
-  return 40;
+module.exports = function ({ name }) {
+  return `Hello, ${ name }`;
 }

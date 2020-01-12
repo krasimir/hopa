@@ -1,6 +1,6 @@
 {
   "name": "hopa",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Run JavaScript/TypeScript files on the fly",
   "main": "lib/index.js",
   "scripts": {},

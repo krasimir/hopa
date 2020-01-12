@@ -1,6 +1,6 @@
 const a = require('./test2.js');
 
-console.log(a());
+console.log(a({ name: 'Hopa' }));
 
 function * test() {
   yield 'foo';
