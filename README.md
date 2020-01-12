@@ -1,14 +1,14 @@
 ![Хопа-тропа](./assets/hopa-tropa.jpg)
 
-<h3 align="center">Zero config JavaScript/TypeScript runner right in your terminal</h3>
+<h1 align="center">Zero config JavaScript/TypeScript runner<br />right in your terminal</h3>
 
 ---
 
 ## Features
 
-* 0 configuration
-* Transpiles JavaScript and TypeScript
-* Little single-folder file browser
+* 0 configuration 🚀
+* Transpiles JavaScript and TypeScript ⚙️
+* Little single-folder file browser 📁
 
 ## What and Why
 
