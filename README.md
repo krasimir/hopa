@@ -19,6 +19,8 @@
 
 I did this little tool because I'm tired of creating dummy repos, copying webpack files, switching between terminal and browser just so I can run some "modern" JavaScript. I know about solution like [CodeSandbox](https://codesandbox.io/) and [CodePen](https://codepen.io/) but I want specifically to exercise my code in the terminal. And I want to do it quick, without configuring stuff like Babel and Webpack.
 
+More about the story here [https://krasimirtsonev.com/blog/article/hopa-javascript-typescript-runner](https://krasimirtsonev.com/blog/article/hopa-javascript-typescript-runner).
+
 ## Installation
 
 ```
