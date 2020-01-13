@@ -39,7 +39,7 @@ This will display a menu and you have to pick a file. You'll get transpilation, 
 > hopa -i script.js -o bundle.js -m
 ```
 
-Gets `script.js`, transpiles it and bundle it to a new file called `bundle.js` which is also minified. No watching in this case. It's a single-shot operation. `-m` and `-o` are optional. If the output is not specified Hopa creates a file with name `bundle.<your file>`.
+Gets `script.js`, transpiles it and bundle it to a new file called `bundle.js` which is also minified. No watching in this case. It's a single-shot operation. `-m` and `-o` are optional. If the output is not specified Hopa creates a file with name `bundle.<your file>`. Have in mind that this feature is experimental. I find that in some cases Hopa can't resolve properly modules and errors out.
 
 
 ## Demo
