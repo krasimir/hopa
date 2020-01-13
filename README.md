@@ -36,7 +36,7 @@ Go to the folder that contains your files and run `hopa`.
 This will display a menu and you have to pick a file. You'll get transpilation, bundling, running and watching.
 
 ```
-> hopa -i=script.js -o=bundle.js -m
+> hopa -i script.js -o bundle.js -m
 ```
 
 Gets `script.js`, transpiles it and bundle it to a new file called `bundle.js` which is also minified. No watching in this case. It's a single-shot operation. `-m` and `-o` are optional. If the output is not specified Hopa creates a file with name `bundle.<your file>`.
