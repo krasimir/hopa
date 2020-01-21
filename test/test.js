@@ -8,7 +8,10 @@ function * test() {
 
 const t = test();
 console.log(t.next());
+let counter = 0;
 
 setInterval(() => {
-  // console.log('fa');
-}, 1000);
+  if (++counter < 40) {
+    console.log('fa');
+  }
+}, 100);
