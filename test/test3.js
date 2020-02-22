@@ -4,7 +4,7 @@ const c = 30;
 
 function test() {
   return new Promise(done => {
-    setTimeout(() => done('Foo'), 1000);
+    setTimeout(() => done('FooBar'), 1000);
   });
 }
 
