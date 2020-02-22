@@ -22,4 +22,4 @@ type PurchaseOrder = typeof purchaseOrder
 
 const readonlyOrders: readonly PurchaseOrder[] = [purchaseOrder]
 
-readonlyOrders.pop();
+const test:[string, number] = ['test', 33]
